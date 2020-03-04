@@ -82,4 +82,9 @@ class PembayaranController extends Controller
     {
         //
     }
+    public function pembayaran()
+    {
+        return view('pembayaran/pembayaran');
+    
+    }
 }

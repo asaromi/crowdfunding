@@ -20,3 +20,4 @@ Auth::routes();
 Route::get('home', 'HomeController@index')->name('home');
 Route::get('create','KampanyeController@create')->name('create');
 Route::get('detail','KampanyeController@detail')->name('detail');
+Route::get('/pembayaran','PembayaranController@pembayaran')->name('pembayaran');
