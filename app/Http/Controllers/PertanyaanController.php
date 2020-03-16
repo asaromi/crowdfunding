@@ -82,4 +82,45 @@ class PertanyaanController extends Controller
     {
         //
     }
+
+
+    public function pertanyaan()
+    {
+        return view('pertanyaan/pertanyaan');
+    
+    }
+    
+    public function bantuan()
+    
+    {
+        return view('bantuan/bantuan');
+    
+    }
+    public function pencarian()
+    
+    {
+        return view('/pencarian');
+    
+    }
+
+    public function tentang()
+    
+    {
+        return view('tentang/tentang');
+    
+    }
+
+    public function hasil()
+    
+    {
+        return view('kategori/hasil');
+    
+    }
+    public function kategori()
+    
+    {
+        return view('kategori/kategori');
+    
+    }
+
 }

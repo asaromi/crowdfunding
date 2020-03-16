@@ -16,7 +16,7 @@ class CreateKampanyesTable extends Migration
         Schema::create('kampanyes', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('judul', 255);
-            $table->unsignedBigInteger('id_instansi', 255);
+            $table->unsignedBigInteger('id_instansi');
             $table->unsignedBigInteger('target');	            
             $table->text('deskripsi');
             $table->unsignedBigInteger('jumlah');	 

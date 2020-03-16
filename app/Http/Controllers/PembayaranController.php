@@ -87,4 +87,15 @@ class PembayaranController extends Controller
         return view('pembayaran/pembayaran');
     
     }
+
+    public function transfer()
+    {
+        return view('pembayaran/transfer');
+    
+    }public function langsung()
+    
+    {
+        return view('pembayaran/langsung');
+    
+    }
 }
