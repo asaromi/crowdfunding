@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Kampanye;
+use App\instansi;
 use Illuminate\Http\Request;
 
-class KampanyeController extends Controller
+class InstansiController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class KampanyeController extends Controller
      */
     public function index()
     {
-        
+        //
     }
 
     /**
@@ -24,8 +24,7 @@ class KampanyeController extends Controller
      */
     public function create()
     {
-        return view('kampanye/create');
-    
+        //
     }
 
     /**
@@ -42,10 +41,10 @@ class KampanyeController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Kampanye  $kampanye
+     * @param  \App\instansi  $instansi
      * @return \Illuminate\Http\Response
      */
-    public function show(Kampanye $kampanye)
+    public function show(instansi $instansi)
     {
         //
     }
@@ -53,10 +52,10 @@ class KampanyeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Kampanye  $kampanye
+     * @param  \App\instansi  $instansi
      * @return \Illuminate\Http\Response
      */
-    public function edit(Kampanye $kampanye)
+    public function edit(instansi $instansi)
     {
         //
     }
@@ -65,10 +64,10 @@ class KampanyeController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Kampanye  $kampanye
+     * @param  \App\instansi  $instansi
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Kampanye $kampanye)
+    public function update(Request $request, instansi $instansi)
     {
         //
     }
@@ -76,16 +75,11 @@ class KampanyeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Kampanye  $kampanye
+     * @param  \App\instansi  $instansi
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Kampanye $kampanye)
+    public function destroy(instansi $instansi)
     {
         //
-    }
-    public function detail()
-    {
-        return view('kampanye/detail');
-    
     }
 }

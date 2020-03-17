@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePembayaransTable extends Migration
+class CreateInstansisTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,14 @@ class CreatePembayaransTable extends Migration
      */
     public function up()
     {
-        Schema::create('pembayarans', function (Blueprint $table) {
+        Schema::create('instansis', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->unsignedBigInteger('id_user');
             $table->string('nama');
-            $table->unsignedBigInteger('nominal');
+            $table->text('alamat');
+            $table->string('no_telp');
+            $table->string('no_rek');
             $table->timestamps();
-            
-            /** foreign key **/
-            $table->unsignedBigInteger('id_kampanye')->nullable();
-            $table->foreign('id_kampanye')->references('id')->on('kampanyes')->onDelete('set null');
         });
     }
 
@@ -32,6 +31,6 @@ class CreatePembayaransTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pembayarans');
+        Schema::dropIfExists('instansis');
     }
 }

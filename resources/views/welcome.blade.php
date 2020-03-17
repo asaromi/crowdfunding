@@ -6,61 +6,112 @@
 @stop
 
 @section('content')
-        
-    <div class="container-fluid text-center">    
-      <div class="row content">
-        <div class="col-sm-2 ">
-        
-        </div>
-        <div class="col-sm-8 text-left "style="background-color:#fff"> 
-           <h1>Welcome</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <hr>
-            <h3>Test</h3>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum modi ducimus veritatis ad quis nobis autem, pariatur doloremque eaque commodi quas nemo accusamus, repellendus neque iure itaque magnam quibusdam.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, maxime possimus! Cumque doloribus accusantium eaque sint alias dolorem facere molestias, voluptatibus natus neque praesentium nihil. Consequuntur possimus sapiente reiciendis adipisci.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nemo itaque ad repellat repellendus. Debitis deleniti at mollitia nisi commodi distinctio, saepe possimus, repellendus delectus quod sequi nobis eveniet. Ut!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iste neque aliquid minus soluta, deleniti laudantium similique vitae doloremque nobis sequi labore alias voluptatibus! Iusto harum atque vero quisquam pariatur!</p>
-        </div>
-
-        <div class="col-sm-2 ">
-        </div>
-      
+<div class="card ">
+	<div class="card-header">
+		<a class="btn btn-success" href="create"><i class="fas fa-fw fa-plus"></i> Tambah</a>
+	</div>
+	<div class="card-body pb-0">
+		<div class="row d-flex align-items-stretch">
+			<div class="col-12 col-sm-6 col-md-6 d-flex align-items-stretch">
+				<div class="card col-md-12 bg-light">
+					<div class="card-header text-muted border-bottom-0">
+						Digital Strategist
+					</div>
+					<div class="card-body pt-0 w-100">
+						<div class="row">
+							<div class="col-7">
+								<h2 class="lead"><b>Nicole Pearson</b></h2>
+								<p class="text-muted text-sm"><b>About: </b> Web Designer / UX / Graphic Artist
+									/ Coffee Lover </p>
+								<ul class="ml-4 mb-0 fa-ul text-muted">
+									<li class="small"><span class="fa-li"><i
+												class="fas fa-lg fa-building"></i></span> Address: Demo Street
+										123, Demo City 04312, NJ</li>
+									<li class="small"><span class="fa-li"><i
+												class="fas fa-lg fa-phone"></i></span> Phone #: + 800 - 12 12 23
+										52</li>
+								</ul>
+							</div>
+							<div class="col-5 text-center">
+								<img alt="profile.jpg" class="img-circle img-fluid">
+							</div>
+						</div>
+					</div>
+					<div class="card-footer m-0">
+						<div class="text-right">
+							
+							<a href="detail" class="btn btn-md w-25 btn-primary">
+								Lihat
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 d-flex align-items-stretch">
+				<div class="card col-md-12 bg-light">
+					<div class="card-header text-muted border-bottom-0">
+						Digital Strategist
+					</div>
+					<div class="card-body pt-0 w-100">
+						<div class="row">
+							<div class="col-7">
+								<h2 class="lead"><b>Nicole Pearson</b></h2>
+								<p class="text-muted text-sm"><b>About: </b> Web Designer / UX / Graphic Artist
+									/ Coffee Lover </p>
+								<ul class="ml-4 mb-0 fa-ul text-muted">
+									<li class="small"><span class="fa-li"><i
+												class="fas fa-lg fa-building"></i></span> Address: Demo Street
+										123, Demo City 04312, NJ</li>
+									<li class="small"><span class="fa-li"><i
+												class="fas fa-lg fa-phone"></i></span> Phone #: + 800 - 12 12 23
+										52</li>
+								</ul>
+							</div>
+							<div class="col-5 text-center">
+								<img alt="profile.jpg" class="img-circle img-fluid">
+							</div>
+						</div>
+					</div>
+					<div class="card-footer m-0">
+						<div class="text-right">
+							<a href="detail" class="btn btn-md w-25 btn-primary">
+								Lihat
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- /.card-body -->
+	<div class="card-footer">
+		<nav aria-label="Contacts Page Navigation">
+			<ul class="pagination justify-content-center m-0">
+				<li class="page-item active"><a class="page-link" href="#">1</a></li>
+				<li class="page-item"><a class="page-link" href="#">2</a></li>
+				<li class="page-item"><a class="page-link" href="#">3</a></li>
+				<li class="page-item"><a class="page-link" href="#">4</a></li>
+				<li class="page-item"><a class="page-link" href="#">5</a></li>
+				<li class="page-item"><a class="page-link" href="#">6</a></li>
+				<li class="page-item"><a class="page-link" href="#">7</a></li>
+				<li class="page-item"><a class="page-link" href="#">8</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!-- /.card-footer -->
+</div>
 @endsection
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
-    <style>
-      .content-header{
-        padding-top:0px;
-        padding-bottom:0px; 
-
-      }
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-        .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-	</style>
+<link rel="stylesheet" href="vendor/adminlte/dist/css/adminlte.css">
 @stop
 
 @section('js')
-    <script> console.log('Hello '); </script>
-    <script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>	
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-   
+<script> console.log('Hello '); </script>
+<script type="text/javascript" src="/vendor/jquery/jquery.js"></script>
+<script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.js"></script>
+<script src="/vendor/jquery/jquery.min.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+
 @stop
