@@ -15,10 +15,12 @@ class CreatePembayaransTable extends Migration
     {
         Schema::create('pembayarans', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('id_user');
             $table->unsignedBigInteger('nominal');
-            $table->unsignedBigInteger('id_kampanye');
             $table->timestamps();
+            
+            /** foreign key **/
+            $table->unsignedBigInteger('id_kampanye')->nullable();
+            $table->foreign('id_kampanye')->references('id')->on('kampanyes')->onDelete('set null');
         });
     }
 
