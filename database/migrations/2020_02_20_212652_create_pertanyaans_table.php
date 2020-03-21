@@ -15,10 +15,13 @@ class CreatePertanyaansTable extends Migration
     {
         Schema::create('pertanyaans', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('id_user');
             $table->text('pertanyaan');
-            $table->text('jawaban');
+            $table->text('jawaban')->nullable();
             $table->timestamps();
+
+            /** Foreign Key **/
+            $table->unsignedBigInteger('id_user')->nullable();
+            $table->foreign('id_user')->references('id')->on('users')->onDelete('set null');
         });
     }
 
