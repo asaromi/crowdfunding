@@ -10,6 +10,7 @@ class Pertanyaan extends Model
         'id_user', 'pertanyaan','jawaban'
     ];
 
+    /** Relasi user dengan pertanyaan Many to One*/
     function user(){
         return $this->belongsTo('App\User', 'id_user');
     }

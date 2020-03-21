@@ -37,6 +37,7 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    /** Relasi user dengan pertanyaan one to Many */
     function pertanyaan(){
         return $this->hasMany('App\Pertanyaan', 'id_user');
     }
