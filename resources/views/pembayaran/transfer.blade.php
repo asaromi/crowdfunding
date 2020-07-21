@@ -25,7 +25,7 @@
 			jika sudah melakukan transfer, isi form berikut untuk mendapatkan konfirmasi dari kami <br>
 			
 			<a href="konfirmasi" class="btn btn-md w-25 btn-primary">
-								konfirmasi
+								Form 
 			</a>
 
 

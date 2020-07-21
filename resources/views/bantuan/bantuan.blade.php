@@ -9,7 +9,7 @@
 <div class="row justify-content-center">
 	<div class="col-md-8">
 		<!-- general form elements -->
-		<div class="card card-red">
+		<div class="card card-lightblue">
 			<div class="card-header">
 				<h2 class="card-title"><h2>Bantuan</h2></h2>
 			</div>
@@ -22,7 +22,7 @@
 			<div class="row ">
 				<div class="col-md-6 mb-2">
 					<!-- general form elements -->
-					<div class="card card-red h-100">
+					<div class="card card-lightblue h-100">
 						<div class="card-header">
 							<h4 class="card-title">Pembayaran</h4>
 						</div>
@@ -37,7 +37,7 @@
 
 				<div class="col-md-6 mb-2">
 					<!-- general form elements -->
-					<div class="card card-red h-100">
+					<div class="card card-lightblue h-100">
 						<div class="card-header">
 							<h4 class="card-title">Konfirmasi Pembayaran</h4>
 						</div>
@@ -52,7 +52,7 @@
 				
 				<div class="col-md-6 mb-2">
 					<!-- general form elements -->
-					<div class="card card-red h-100">
+					<div class="card card-lightblue h-100">
 						<div class="card-header">
 							<h4 class="card-title">Pembayaran Langsung</h4>
 						</div>
@@ -65,7 +65,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 mb-2">
-					<div class="card card-red h-100">
+					<div class="card card-lightblue h-100">
 						<div class="card-header">
 							<h4 class="card-title">Bukti Transfer</h4>
 						</div>
