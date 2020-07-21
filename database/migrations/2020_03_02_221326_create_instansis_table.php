@@ -15,12 +15,15 @@ class CreateInstansisTable extends Migration
     {
         Schema::create('instansis', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('id_user');
             $table->string('nama');
             $table->text('alamat');
             $table->string('no_telp');
             $table->string('no_rek');
             $table->timestamps();
+
+            /** Foreign Key **/
+            $table->unsignedBigInteger('id_user')->nullable();
+            $table->foreign('id_user')->references('id')->on('users')->onDelete('set null');
         });
     }
 

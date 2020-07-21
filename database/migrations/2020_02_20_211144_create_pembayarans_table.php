@@ -17,8 +17,11 @@ class CreatePembayaransTable extends Migration
             $table->bigIncrements('id');
             $table->string('nama');
             $table->unsignedBigInteger('nominal');
-            $table->unsignedBigInteger('id_kampanye');
             $table->timestamps();
+            
+            /** foreign key **/
+            $table->unsignedBigInteger('id_kampanye')->nullable();
+            $table->foreign('id_kampanye')->references('id')->on('kampanyes')->onDelete('set null');
         });
     }
 
