@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'utama')
+@section('title', 'Metode Pembayaran Transfer')
 
 @section('content_header')
 @stop
@@ -11,13 +11,27 @@
 		<!-- general form elements -->
 		<div class="card card-red">
 			<div class="card-header">
-				<h4 class="card-title">Pembayaran</h4>
+				<h3 class="card-title">Metode Pembayaran Transfer</h3>
 			</div>
 			<!-- /.card-header -->
 			<!-- form start -->
         <div class="card-body">
-            Untuk melanjutkan pembayaran ini, kamu dapat melakukanya dengan memilih satu dari dua metode dibawah ini.
-        </div>
+			Bagi anda yang melakukan transfer, anda dapat mengirimkan donasi anda ke rekening perusahaan kami dengan informasi sebagai berikut : <br>
+			<br>
+			Nama     : <br>
+			No. Rek  : <br>
+			Nama Bank: <br>
+			<br>
+			jika sudah melakukan transfer, isi form berikut untuk mendapatkan konfirmasi dari kami <br>
+			
+			<a href="konfirmasi" class="btn btn-md w-25 btn-primary">
+								konfirmasi
+			</a>
+
+
+			        
+
+		</div>
         </div>
 		<!-- /.card -->
 	</div>

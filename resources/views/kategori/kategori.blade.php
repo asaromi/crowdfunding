@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'utama')
+@section('title', 'Kategori')
 
 @section('content_header')
 @stop
@@ -11,12 +11,15 @@
 		<!-- general form elements -->
 		<div class="card card-red">
 			<div class="card-header">
-				<h4 class="card-title">Pembayaran</h4>
+				<h4 class="card-title">Kategori</h4>
 			</div>
 			<!-- /.card-header -->
 			<!-- form start -->
         <div class="card-body">
-            Untuk melanjutkan pembayaran ini, kamu dapat melakukanya dengan memilih satu dari dua metode dibawah ini.
+		berikut beberapa kategori yang tersedia : <br>
+		
+		<a class="btn btn-success" href="create"><i class="fas fa-fw "></i> Tambah</a>
+		
         </div>
         </div>
 		<!-- /.card -->

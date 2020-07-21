@@ -17,7 +17,7 @@ class CreatePertanyaansTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('id_user');
             $table->text('pertanyaan');
-            $table->text('jawaban');
+            $table->text('email');
             $table->timestamps();
         });
     }

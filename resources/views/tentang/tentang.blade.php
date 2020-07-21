@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'utama')
+@section('title', 'Tentang Perusahaan')
 
 @section('content_header')
 @stop
@@ -11,13 +11,12 @@
 		<!-- general form elements -->
 		<div class="card card-red">
 			<div class="card-header">
-				<h4 class="card-title">Pembayaran</h4>
+				<h4 class="card-title">Tentang Perusahaan</h4>
 			</div>
 			<!-- /.card-header -->
 			<!-- form start -->
         <div class="card-body">
-            Untuk melanjutkan pembayaran ini, kamu dapat melakukanya dengan memilih satu dari dua metode dibawah ini.
-        </div>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae cupiditate vitae molestiae recusandae. Veniam, commodi. Natus quae quas earum qui et laborum sequi nesciunt omnis doloribus fuga, perspiciatis pariatur assumenda.        </div>
         </div>
 		<!-- /.card -->
 	</div>

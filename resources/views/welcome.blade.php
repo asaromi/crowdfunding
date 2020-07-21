@@ -14,23 +14,13 @@
 		<div class="row d-flex align-items-stretch">
 			<div class="col-12 col-sm-6 col-md-6 d-flex align-items-stretch">
 				<div class="card col-md-12 bg-light">
-					<div class="card-header text-muted border-bottom-0">
-						Digital Strategist
-					</div>
+					<br><br>
 					<div class="card-body pt-0 w-100">
 						<div class="row">
 							<div class="col-7">
-								<h2 class="lead"><b>Nicole Pearson</b></h2>
-								<p class="text-muted text-sm"><b>About: </b> Web Designer / UX / Graphic Artist
-									/ Coffee Lover </p>
-								<ul class="ml-4 mb-0 fa-ul text-muted">
-									<li class="small"><span class="fa-li"><i
-												class="fas fa-lg fa-building"></i></span> Address: Demo Street
-										123, Demo City 04312, NJ</li>
-									<li class="small"><span class="fa-li"><i
-												class="fas fa-lg fa-phone"></i></span> Phone #: + 800 - 12 12 23
-										52</li>
-								</ul>
+								<h2 class="lead"><b>Bantuan untuk mereka yang membutuhkan</b></h2>
+								<p class="text-muted text-sm" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsa eius est exercitationem accusamus quam voluptatem voluptate modi in corrupti, harum illo cum. Fuga reiciendis quibusdam nihil beatae, voluptate facere.</p>
+								
 							</div>
 							<div class="col-5 text-center">
 								<img alt="profile.jpg" class="img-circle img-fluid">

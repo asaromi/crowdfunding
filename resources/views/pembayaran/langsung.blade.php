@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'utama')
+@section('title', 'Metode Pembayaran Langsung')
 
 @section('content_header')
 @stop
@@ -11,13 +11,18 @@
 		<!-- general form elements -->
 		<div class="card card-red">
 			<div class="card-header">
-				<h4 class="card-title">Pembayaran</h4>
+				<h4 class="card-title">Metode Pembayaran Langsung</h4>
 			</div>
 			<!-- /.card-header -->
 			<!-- form start -->
         <div class="card-body">
-            Untuk melanjutkan pembayaran ini, kamu dapat melakukanya dengan memilih satu dari dua metode dibawah ini.
-        </div>
+        Jika anda ingin memberikan donasi langsung melalui kami, anda dapat menemui kami di alamat berikut : <br><br>
+		Nama Instansi : <br>
+		Alamat : <br>
+		No. Telp : <br><br>
+
+
+	    </div>
         </div>
 		<!-- /.card -->
 	</div>
