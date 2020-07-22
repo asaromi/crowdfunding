@@ -15,28 +15,29 @@
 			</div>
 			<!-- /.card-header -->
 			<!-- form start -->
-			<form role="form">
+			<form role="form" method="POST" action="/store">
+				@csrf
 				<div class="card-body">
 					<div class="form-group">
 						<label for="judul">judul</label>
-						<input type="text" class="form-control" id="judul" placeholder="masukkan judul">
+						<input type="text" class="form-control" id="judul" name="judul" placeholder="masukkan judul">
 					</div>
 					<div class="form-group">
 						<label for="instansi">instansi</label>
-						<input type="text" class="form-control" id="instansi" placeholder="masukkan nama instansi">
+						<input type="text" class="form-control" id="instansi" name="instansi" placeholder="masukkan nama instansi">
 					</div>
 					<div class="form-group">
 						<label for="target">target</label>
-						<input type="text" class="form-control" id="target" placeholder="masukkan jumlah">
+						<input type="text" class="form-control" id="target" name="target" placeholder="masukkan jumlah">
 					</div>
 					<div class="form-group">
 						<label for="deskripsi">deskripsi</label>
-						<textarea type="text" class="form-control" id="deskripsi"
+						<textarea type="text" class="form-control" id="deskripsi" name="deskripsi"
 							placeholder="masukkan deskripsi"></textarea>
 					</div>
 					<div class="form-group">
 						<label for="tenggat">tenggat</label>
-						<input type="date" class="form-control" id="tenggat">
+						<input type="date" class="form-control" id="tenggat" name="tenggat">
 					</div>
 	
 					<div class="form-group">

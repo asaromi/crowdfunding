@@ -36,7 +36,46 @@ class KampanyeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'judul' => 'required',
+            'instansi' => 'required',
+            'target' => 'required',
+            'deskripsi' => 'required',
+            // 'jumlah' => 'required',
+            'lokasi' => 'required',
+            'tenggat' => 'required',
+        ]);
+
+        $kampanye = new Kampanye([
+            'perusahaans' => $request->get('perusahaans'),
+            'judul' => $request->get('judul'),
+            'id_instansi' => $request->get('instansi'),
+            'target' => $request->get('target'),
+            'deskripsi' => $request->get('deskripsi'),
+            'jumlah' => 0,
+            'lokasi' => $request->get('lokasi'),
+            'tenggat' => $request->get('tenggat'),
+            'status' => 'Ongoing',
+        ]);
+
+        $saved = $kampanye->save();
+
+        if($saved)
+            return redirect('/home');
+
+        else
+            return redirect('/create');
+
+        // if ($catatan->user != Auth::user()->id) {
+        //     return redirect('catatan')->with('failed', 'Anda tidak diperbolehkan menambah catatan untuk user lain!');
+        // } else {
+        //     $saved = $catatan->save();
+        //     if ($saved) {
+        //         return redirect('catatan')->with('success', 'Catatan berhasil ditambahkan!');
+        //     } else {
+        //         return redirect('catatan')->with('failed', 'Gagal menambahkan catatan!');
+        //     }
+        // }
     }
 
     /**
