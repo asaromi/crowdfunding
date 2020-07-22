@@ -24,6 +24,7 @@ Route::get('/pembayaran','PembayaranController@pembayaran')->name('pembayaran');
 Route::get('/transfer','PembayaranController@transfer')->name('transfer');
 Route::get('/langsung','PembayaranController@langsung')->name('langsung');
 Route::get('/form','PembayaranController@form')->name('form');
+Route::get('/instansi','InstansiController@instansi')->name('instansi');
 Route::get('/bantuan','PertanyaanController@bantuan')->name('bantuan');
 Route::get('/pertanyaan','PertanyaanController@pertanyaan')->name('pertanyaan');
 Route::get('/pencarian','PertanyaanController@pencarian')->name('pencarian');

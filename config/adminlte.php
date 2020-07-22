@@ -186,38 +186,43 @@ return [
         
         ['header' => 'MENU UTAMA'],
         [
-            'text' => 'home',
-            'url'  => 'admin/settings',
+            'text' => 'Home',
+            'url'  => '/',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'buat kampanye',
-            'url'  => 'admin/settings',
+            'text' => 'Buat kampanye',
+            'url'  => '/create',
             'icon' => 'fas fa-fw fa-marker',
         ],
         [
-            'text' => 'kategori',
-            'url'  => 'admin/settings',
+            'text' => 'Daftar Instansi',
+            'url'  => '/instansi',
+            'icon' => 'fas fa-fw fa-handshake',
+        ],
+        [
+            'text' => 'Kategori',
+            'url'  => '/kategori',
             'icon' => 'fas fa-fw fa-list',
         ],
         [
-            'text' => 'pembayaran',
-            'url'  => 'admin/settings',
+            'text' => 'Pembayaran',
+            'url'  => '/pembayaran',
             'icon' => 'fas fa-fw fa-money-bill-wave-alt',
         ],
         [
-            'text' => 'bantuan',
-            'url'  => 'admin/settings',
+            'text' => 'Bantuan',
+            'url'  => '/bantuan',
             'icon' => 'fas fa-fw fa-info-circle',
         ],
         [
-            'text' => 'tentang kami',
-            'url'  => 'admin/settings',
+            'text' => 'Tentang kami',
+            'url'  => '/tentang',
             'icon' => 'fas fa-fw fa-building',
         ],
         [
-            'text' => 'laman pentanyaan',
-            'url'  => 'admin/settings',
+            'text' => 'Laman pentanyaan',
+            'url'  => '/pertanyaan',
             'icon' => 'fas fa-fw fa-question',
         ],
         

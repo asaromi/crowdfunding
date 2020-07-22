@@ -82,4 +82,11 @@ class InstansiController extends Controller
     {
         //
     }
+
+    public function instansi()
+    
+    {
+        return view('instansi/instansi');
+    
+    }
 }

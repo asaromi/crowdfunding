@@ -19,6 +19,7 @@ class CreateInstansisTable extends Migration
             $table->text('alamat');
             $table->string('no_telp');
             $table->string('no_rek');
+            $table->text('bank');
             $table->timestamps();
 
             /** Foreign Key **/

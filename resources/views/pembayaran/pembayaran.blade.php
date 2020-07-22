@@ -23,7 +23,7 @@
 								Transfer
 			</a>
 			<br>
-			<a href="{{ url'/langsung'}}" class="btn btn-primary btn-block">
+			<a href="/langsung" class="btn btn-primary btn-block">
 								Langsung
 			</a>
 		
