@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Kampanye;
+use App\Instansi;
 use Illuminate\Http\Request;
 
 class KampanyeController extends Controller
@@ -24,8 +25,8 @@ class KampanyeController extends Controller
      */
     public function create()
     {
-        return view('kampanye/create');
-    
+        $instansi = Instansi::select('id','nama')->get();
+        return view('kampanye/create', compact(['instansi']));
     }
 
     /**

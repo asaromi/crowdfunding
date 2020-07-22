@@ -23,8 +23,15 @@
 						<input type="text" class="form-control" id="judul" name="judul" placeholder="masukkan judul">
 					</div>
 					<div class="form-group">
-						<label for="instansi">instansi</label>
-						<input type="text" class="form-control" id="instansi" name="instansi" placeholder="masukkan nama instansi">
+						<label for="id_instansi">instansi</label>
+						<div class="col-md-12">
+							<select id="id_instansi" name="id_instansi" placeholder="masukkan nama instansi" style="width: 100%">
+							@foreach ($instansi as $i)
+							    <option value="{{ $i->id }}">{{ $i->nama }}</option>
+							@endforeach
+						</select>
+						</div>
+						<p>Instansi anda belum terdaftar? Silahkan Daftar <a href="/instansi/create">Disini</a></p>
 					</div>
 					<div class="form-group">
 						<label for="target">target</label>
@@ -79,5 +86,4 @@
 <script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.js"></script>
 <script src="/vendor/jquery/jquery.min.js"></script>
 <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-
 @stop
