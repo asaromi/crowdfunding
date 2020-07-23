@@ -75,7 +75,7 @@
                 </div>
                 
                 
-                <div class="tab-pane fade show active" id="pills-konfkampanye" role="tabpanel" aria-labelledby="pills-konfkampanye-tab"> <br><br>
+                <div class="tab-pane fade show" id="pills-konfkampanye" role="tabpanel" aria-labelledby="pills-konfkampanye-tab"> <br><br>
                 <!-- tabel start -->
                     <table class="table table-borderless">
                     <thead>
