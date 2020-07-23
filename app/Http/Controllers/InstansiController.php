@@ -89,4 +89,11 @@ class InstansiController extends Controller
         return view('instansi/instansi');
     
     }
+
+    public function pemilik()
+    
+    {
+        return view('pemilik/pemilik');
+    
+    }
 }
